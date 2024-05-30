@@ -24,10 +24,6 @@ Este projeto é uma demonstração de caixas interativas que revelam informaçõ
 
 Contribuições são sempre bem-vindas! Se você tem ideias para melhorar o projeto, encontra algum bug ou deseja adicionar novos recursos, sinta-se à vontade para criar uma issue ou enviar um pull request.
 
-## 📜 Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo `LICENSE.md` para detalhes.
-
 ## 💡 Inspiração
 
 Inspirado no conceito de "Listas Destacadas em Caixas" para apresentação de conteúdo de forma interativa e envolvente.
