@@ -1,68 +1,70 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caixas interativas</title>
+    <title>Interactive Boxes</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="recipiente">
-  <div class="caixa first">
-    <span class="icon-cont"><i class="fa fa-user-md"></i></span>
-    <h3>Medical Law</h3>
-    <ul class="hidden">
-      <li>Medical Advisory;</li>
-      <li>Consultancy;</li>
-      <li>Lectures;</li>
-      <li>Legal defense of doctors;</li>
-      <li>Ethical defense of doctors.</li>
-    </ul>
-    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+<div class="container">
+    <div class="row gap-1 justify-content-center">
+        <div class="caixa col-12 col-sm-12 col-lg-5 mr-auto">
+        <span class="icon-cont"><i class="fa fa-user-md"></i></span>
+        <h3>Medical Law</h3>
+        <ul class="hidden">
+            <li>Advisory;</li>
+            <li>Consultancy;</li>
+            <li>Lectures;</li>
+            <li>Legal defense of doctors;</li>
+            <li>Ethical defense of doctors.</li>
+        </ul>
+        <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+        </div>
+        <div class="caixa col-12 col-sm-12 col-lg-5 mr-auto">
+        <span class="icon-cont"><i class="fa fa-medkit"></i></span>
+        <h3>Health Law</h3>
+        <ul class="hidden">
+            <li>Coverage denial;</li>
+            <li>Multiprofessional treatment;</li>
+            <li>High-cost medication;</li>
+            <li>Abusive adjustments;</li>
+            <li>Undue cancellation.</li>
+        </ul>
+        <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+        </div>
+        <div class="caixa col-12 col-sm-12 col-lg-5 mr-auto">
+        <span class="icon-cont"><i class="fas fa-handshake"></i></span>
+        <h3>Collaborative Advocacy</h3>
+        <ul class="hidden">
+            <li>Systemic Action;</li>
+            <li>Autonomy of the parties;</li>
+            <li>Better communication between parties;</li>
+            <li>Fairer solution for all.</li>
+        </ul>
+        <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+        </div>
+        <div class="caixa col-12 col-sm-12 col-lg-5 mr-auto">
+        <span class="icon-cont"><i class="fa fa-university"></i></span>
+        <h3>Bio Law</h3>
+        <ul class="hidden">
+            <li>Assisted Human Reproduction;</li>
+            <li>In vitro fertilization;</li>
+            <li>Living will;</li>
+            <li>Dignified death;</li>
+            <li>Birth plan.</li>
+        </ul>
+        <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+        </div>
+        <div class="caixa col-12 col-sm-12 col-lg-5 mr-auto">
+        <span class="icon-cont"><i class="fa fa-balance-scale"></i></span>
+        <h3>Systemic Mediation</h3>
+        <ul class="hidden">
+            <li>UNDER CONSTRUCTION</li>
+        </ul>
+        <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+        </div>
+    </div>
   </div>
-  <div class="caixa second">
-    <span class="icon-cont"><i class="fa fa-medkit"></i></span>
-    <h3>Health Law</h3>
-    <ul class="hidden">
-      <li>Coverage denial;</li>
-      <li>Multiprofessional treatment;</li>
-      <li>High-cost medication;</li>
-      <li>Abusive adjustments;</li>
-      <li>Undue cancellation.</li>
-    </ul>
-    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
-  </div>
-  <div class="caixa third">
-    <span class="icon-cont"><i class="fa fa-handshake-o"></i></span>
-    <h3>Collaborative Advocacy</h3>
-    <ul class="hidden">
-      <li>Systemic Action;</li>
-      <li>Autonomy of the parties;</li>
-      <li>Better communication between parties;</li>
-      <li>Fairer solution for all.</li>
-    </ul>
-    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
-  </div>
-  <div class="caixa fourth">
-    <span class="icon-cont"><i class="fa fa-university"></i></span>
-    <h3>Bio Law</h3>
-    <ul class="hidden">
-      <li>Assisted Human Reproduction;</li>
-      <li>In vitro fertilization;</li>
-      <li>Living will;</li>
-      <li>Dignified death;</li>
-      <li>Birth plan.</li>
-    </ul>
-    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
-  </div>
-  <div class="caixa fiveth">
-    <span class="icon-cont"><i class="fa fa-balance-scale"></i></span>
-    <h3>Systemic Mediation</h3>
-    <ul class="hidden">
-      <li>UNDER CONSTRUCTION</li>
-    </ul>
-    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
-  </div>
-</div>
   <script src="script.js"></script>
 </body>
